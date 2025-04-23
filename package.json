@@ -1,6 +1,6 @@
 {
   "name": "@ted2xmen/hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Custom React hooks for modern React and Next.js applications",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -26,8 +26,9 @@
     "rss-parser": "^3.13.0"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "next": ">=15.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.0",
